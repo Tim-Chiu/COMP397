@@ -1,8 +1,12 @@
-﻿<!DOCTYPE html>
+﻿<!-- Tim Chiu - 300652823 -->
+<!-- Comp397 - Web Game Programming -->
+<!-- Used 'The Dragon' template, and worked off that -->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Dragon!</title>
+    <title>The Amnesiac!</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
@@ -12,45 +16,66 @@
         <!-- Node 1 -->
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>Node 1</p>
-                <br />
-                <p>Choice</p>
-                <p><a href="#n2">To Node 2</a></p>
+                <p>The Amnesiac</p>
+                <p>
+                    You wake up on a bed, in a dark room. As you slowly get up from the bed, 
+                    your eyes slowly adjust to the darkness. You can’t seem remember your name, 
+                    who you are, where you are, and how you got here.
+                </p>
+                <p>Do you get up off the bed, and try to find some clues, or ignore everything, and go back to bed?</p>
+                <p><a href="#n2">Get up, and explore</a></p>
                 <p>or</p>
-                <p><a href="#n3">To Node 3</a></p>
+                <p><a href="#n3">Go back to bed</a></p>
             </div>
         </div>
 
         <!-- Node 2 -->
         <div id="n2" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>Node 2</p>
-                <br />
-                <p>Choice</p>
-                <p><a href="#n4">To Node 4</a></p>
+                <p>Get up, and explore</p>
+                <p>
+                    As your eyes slowly adjust to the darkness of the room, you feel around, 
+                    you find a light switch, and turn it on, as the lights turn on you shield 
+                    your eyes from the bright light. You quickly notice a large object covered 
+                    by a sheet. Before you removed the sheet you look around, and notice a door.
+                </p>
+                <p>Do you remove the sheet and investigate, or choose to exit the room?</p>
+                <p><a href="#n4">Investigate large object under the sheet</a></p>
                 <p>or</p>
-                <p><a href="#n5">To Node 5</a></p>
+                <p><a href="#n5">Leave through the door</a></p>
             </div>
         </div>
 
         <!-- Node 4 -->
         <div id="n4" class="step slide" data-y="-1500">
             <div class="slide-text">
-                <p>Node 4</p>
-                <br />
-                <p>Choice</p>
-                <p><a href="#o1">Outcome 1</a></p>
+                <p>Investigate large object under the sheet</p>
+                <p>
+                    As you remove the sheet, and investigate the object, you noticed it is a 
+                    machinery with some dials, with numbers seemly representing in a date format. 
+                    As you investigate the machine more, you find a number pad. You come to the 
+                    conclusion that the machine is infact a Time machine. as you input some numbers 
+                    into the number pad.
+                </p>
+                <p>Do you choose to enter into numpad leading you to the past, or leading to the future?</p>
+                <p><a href="#o1">Time travel to the Past</a></p>
                 <p>or</p>
-                <p><a href="#o2">Outcome 2</a></p>
+                <p><a href="#o2">Time travel to the Future</a></p>
             </div>
         </div>
 
         <!-- Outcome 1 -->
         <div id="o1" class="step slide" data-z="1500" data-y="1500">
             <div class="slide-text">
-                <p>Outcome 1</p>
+                <p>Travel to the Past</p>
+                <p>
+                    You decide to enter into the numpad to travel into the past. as the doors close 
+                    to the machine, you get a sick churning feeling in your stomach, and your knees 
+                    weaken, you pass out... As you start to regain conscious, you slowly get up, off 
+                    the floor of the Time machine, and open the doors.
+                </p>
                 <div class="menu">
-                    <a href="#intro">START OVER</a>
+                    <a href="#intro">You Dead - Start Over.</a>
                 </div>
             </div>
         </div>
@@ -58,9 +83,20 @@
         <!-- Outcome 2 -->
         <div id="o2" class="step slide" data-z="-1500" data-y="-1500">
             <div class="slide-text">
-                <p>Outcome 2</p>
+                <p>Travel to the Future</p>
+                <p>
+                    You decide to enter into the numpad to travel into the future. as the doors close 
+                    to the machinery, you get a sick churning feeling in your stomach, and your knees 
+                    weaken, you pass out... As you start to regain conscious, you slowly get up, from 
+                    the floor of the Time machine, and open the doors of the Time machine.
+                </p>
+                <p>
+                    You stumble out of the Time Machine, as you look around in awe, and wonder how far 
+                    into the future you have travelled. As you keep looking around. Flying cars are 
+                    zooming by, and everything is futuristic with a sleek modern look.
+                </p>
                 <div class="menu">
-                    <a href="#intro">START OVER</a>
+                    <a href="#intro">You start wandering off… - Start Over</a>
                 </div>
             </div>
         </div>
@@ -68,21 +104,29 @@
         <!-- Node 5 -->
         <div id="n5" class="step slide" data-y="1500">
             <div class="slide-text">
-                <p>Node 5</p>
-                <br />
-                <p>Choice</p>
-                <p><a href="#o3">Outcome 3</a></p>
+                <p>Proceed to leave the room</p>
+                <p>
+                    As you slowly make your towards the door, you again notice something off the 
+                    corner of your eye. A table by the door, with a phone on it.
+                </p>
+                <p>Do you check the phone, or continue heading towards the door?</p>
+                <p><a href="#o3">Check the Phone</a></p>
                 <p>or</p>
-                <p><a href="#o4">Outcome 4</a></p>
+                <p><a href="#o4">Leave the room</a></p>
             </div>
         </div>
 
         <!-- Outcome 3 -->
         <div id="o3" class="step slide" data-x="1500" data-z="1500">
             <div class="slide-text">
-                <p>Outcome 3</p>
+                <p>Check the phone</p>
+                <p>
+                    You decide to check the phone, as you search through the phone, you noticed 
+                    the phone has 1 missed call, and 3 unread text message. As you’re about to 
+                    open the text message, and check who called you. The phone battery dies…
+                </p>
                 <div class="menu">
-                    <a href="#intro">START OVER</a>
+                    <a href="#intro">You have no charger - Start Over</a>
                 </div>
             </div>
         </div>
@@ -90,9 +134,16 @@
         <!-- Outcome 4 -->
         <div id="o4" class="step slide" data-x="-1500" data-z="-1500">
             <div class="slide-text">
-                <p>Outcome 4</p>
+                <p>Leave the room</p>
+                <p>
+                    You decide to leave the room, as you are walking down the hallway from the room, 
+                    you notice a left, you decide to take it, rather than go back to the room. you 
+                    take the left turn, soon after there is another left not far from the previous 
+                    left… after a few minutes of walking, and turning some more lefts… you realized 
+                    you’re stuck…
+                </p>
                 <div class="menu">
-                    <a href="#intro">START OVER</a>
+                    <a href="#intro">Stuck in a loop forever - Start Over</a>
                 </div>
             </div>
         </div>
@@ -123,7 +174,7 @@
         </div>
 
         <!-- Outcome 5 -->
-        <div id="o5" class="step slide" data-z="1500" data-y="1500">
+        <div id="o5" class="step slide" data-z="1500" data-x="1500">
             <div class="slide-text">
                 <p>Outcome 5</p>
                 <div class="menu">
@@ -133,7 +184,7 @@
         </div>
 
         <!-- Outcome 6 -->
-        <div id="o6" class="step slide" data-z="-1500" data-y="-1500">
+        <div id="o6" class="step slide" data-z="-1500" data-x="-1500">
             <div class="slide-text">
                 <p>Outcome 6</p>
                 <div class="menu">
@@ -143,7 +194,7 @@
         </div>
 
         <!-- Node 7 -->
-        <div id="n7" class="step slide" data-z="1500" data-x="1500">
+        <div id="n7" class="step slide" data-z="1500" data-x="-1500" data-y="1500">
             <div class="slide-text">
                 <p>Node 7</p>
                 <br />
@@ -155,7 +206,7 @@
         </div>
 
         <!-- Outcome 7 -->
-        <div id="o7" class="step slide" data-z="1500" data-x="-1500" data-y="1500">
+        <div id="o7" class="step slide" data-z="-1500" data-x="-1500" data-y="-1500">
             <div class="slide-text">
                 <p>Outcome 7</p>
                 <div class="menu">
@@ -174,12 +225,8 @@
             </div>
         </div>
     </div>
-
-
-
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
-
 </body>
 </html>
